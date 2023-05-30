@@ -1,0 +1,20 @@
+{
+  "name": "sqlpartice",
+  "version": "1.0.0",
+  "description": "Partice Sql for lifelong Session",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Mehedi",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
